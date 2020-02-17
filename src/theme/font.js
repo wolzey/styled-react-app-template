@@ -10,6 +10,8 @@ export default {
     large: px(2),
   },
   faces: {
-    // add font faces here
+    openSans: "'Open Sans', sans-serif",
+    montserrat: "'Montserrat', sans-serif",
+    roboto: "'Roboto', sans-serif",
   },
 }
