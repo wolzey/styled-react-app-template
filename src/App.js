@@ -1,11 +1,9 @@
 import React from 'react'
-import styled, { css } from 'styled-components'
+import styled from 'styled-components'
 
 const Wrapper = styled.div`
-  ${({ theme: { colors } }) => css`
-    height: 100vh;
-    width: 100vw;
-  `}
+  height: 100vh;
+  width: 100vw;
 `
 
 function App() {
