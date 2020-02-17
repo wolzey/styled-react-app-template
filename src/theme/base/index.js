@@ -1,8 +1,6 @@
 import { css } from 'styled-components'
 
 export default css`
-  @import url('https://fonts.googleapis.com/css?family=Montserrat|Open+Sans|Roboto&display=swap');
-
   * {
     box-sizing: border-box;
   }
