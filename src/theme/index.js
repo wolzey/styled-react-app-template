@@ -8,6 +8,7 @@ import base from './base'
 // Theme
 import font from './font'
 import space from './space'
+import colors from './colors'
 
 export const GlobalStyle = createGlobalStyle`
   ${reset}
@@ -15,6 +16,7 @@ export const GlobalStyle = createGlobalStyle`
 `
 
 const Theme = {
+  colors,
   font,
   space,
 }
